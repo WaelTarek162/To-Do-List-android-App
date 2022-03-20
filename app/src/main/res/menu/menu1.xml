@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/subitem1"
+        android:icon="@android:drawable/button_onoff_indicator_on"
+        android:title="Item1" />
+    <menu>
+        <item android:id="@+id/subitem11" android:title="Item1.1" />
+        <item android:id="@+id/subitem12" android:title="Item1.2" />
+        <item android:id="@+id/subitem13" android:title="Item1.3" />
+    </menu>
+
+    <item android:id="@+id/subitem2" android:title="Item2" />
+    <menu />
+</menu>
+
